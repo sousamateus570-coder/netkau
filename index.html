@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz dia dos namorados! </title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="logo.png" alt="" width="50px">
+        </div>
+        <nav>
+            <a href="#"> Início</a>
+            <a href="#"> Séries</a>
+            <a href="#"> Filmes</a>
+            <a href="#"> Minha lista</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="conteudo">
+            <p class="titulo"> Mateus e Kauana </p>
+            <p class="detalhes">
+                <span> 22 DE SETEMBRO,  12 TEMPORADAS</span>
+                <span class="stars">
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                    <i class="fa-solid fa-star" style="color: #ff0000;"></i>
+                </span>
+                <p class="descricao">
+                    Um amor que atravessou fronteiras. Entre acertos e dificuldades, Kauana e Mateus descobriram no companheirismo a força para crescer, viajar e transformar cada momento em eternidade. Uma história real, intensa e profundamente humana.
+                </p>
+                <div class="botoes">
+                    <button> <i class="fa-solid fa-play"></i> Continuar</button>
+                    <button> <i class="fa-solid fa-star"></i> Favorito</button>
+                </div>
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="momentos">
+        <h2>Nossos Melhores Momentos </h2>
+
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"> <img src="./fotos/1.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/2.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/3.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/4.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/5.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/6.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/7.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/8.jpeg"> </div>
+        </div>
+
+        </div>
+
+    </section>
+
+<section class="momentos">
+        <h2>Com você posso ser eu mesmo, sempre. </h2>
+        <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"> <img src="./fotos/9.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/10.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/11.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/12.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/13.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/14.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/15.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/16.jpeg"> </div>
+            <div class="swiper-slide"> <img src="./fotos/17.jpeg"> </div>
+
+        </div>
+
+        </div>
+
+
+    <footer>
+        2025 - Mateus
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction:false,
+            },
+            slidesPerView:2,
+            spaceBetween: 10,
+            loop:true,
+            breakpoints: {
+                600: {
+                    loop:true,
+                    slidesPerView:3,
+                    spaceBetween: 15,
+                },
+                900: {
+                    loop:true,
+                    slidesPerView:4,
+                    spaceBetween: 40,       
+                }
+            }
+            });
+    </script>
+</body>
+</html>
